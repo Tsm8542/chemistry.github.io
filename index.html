@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths</title>
+</head>
+<script src="script.js"></script>
+<style>
+    html{
+        background-color: black;
+        color: aqua;
+    }
+    .menu{
+        font-size: x-large;
+        text-align: center;
+    }
+    .branch,.topic{
+        display: inline-block;
+    }
+    iframe{
+        width: 100%;
+        height: 600px;
+        border: none;
+        margin-top: 2px;
+    }
+    select{
+        margin: 2px;
+        text-align: center;
+        background-color: black;
+        color: cyan;
+        font-size: x-large;
+        border-radius: 10px;
+        border: 3px solid red;
+    }
+    select:focus{
+        border: 1px solid yellow;
+    }
+    @media only screen and (max-width: 385px) {
+        .branch,.topic{
+            display: block;
+        }
+        select{
+            width: 90%;
+        }
+        iframe{
+            width: 100%;
+            height: 775px;
+        }
+    }
+</style>
+<body>
+    <div class="menu">
+        <div class="branch">
+            <!--label for="branch">Branch:</label-->
+            <select id="branch" onchange="x()">
+                <option value="basics">Basics</option>
+                <option value="analytical">Analytical</option>
+                <option value="metallurgy">Metallurgy</option>
+                <option value="physical">Physical</option>
+                <option value="organic">Organic</option>
+                <option value="inorganic">Inorganic</option>
+                <option value="applied">Applied</option>
+            </select>
+        </div>
+        <div class="topic">
+            <!--label for="topic">Topic:</label-->
+            <select id="topic" onchange="z()">
+                <option value="basics">All</option>
+                <option value="cpac">Changes-Physical & Chemical</option>
+                <option value="ecm">Elements,Compounds & Mixtures</option>
+                <option value="ita">Inside the atom</option>
+                <option value="com">Composition of matter</option>
+                <option value="itaab">Introduction to acid & base</option>
+                <option value="ccacb">Chemical change & chemical bond</option>
+                <option value="mom">Measurement of matter</option>
+                <option value="abas">Acids, bases & salts</option>
+                <option value="crae">Chemical reactions & equations</option>
+                <option value="sbcoc">Some basic concepts of chemistry</option>
+                <option value="soa">Structure of atom</option>
+                <option value="cb">Chemical bonding</option>
+                <option value="rr">Redox reactions</option>
+            </select>
+        </div>
+    </div>
+    <iframe src="Files/main.html" id="frame"></iframe>
+</body>
+</html>
