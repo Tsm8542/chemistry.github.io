@@ -155,50 +155,49 @@ function z(){
             y.src = "Files/a.html"
             break;
         case 'inorg':
-            y.src = ""
+            y.src = "Files/inorg.html"
             break;
         case 'pcoe':
-            y.src = ""
+            y.src = "Files/pcoe.html"
             break;
         case 'mpt':
-            y.src = ""
+            y.src = "Files/mpt.html"
             break;
         case 'eog1a2':
-            y.src = ""
+            y.src = "Files/eog1a2.html"
             break;
         case 'eog13_14a15':
-            y.src = ""
+            y.src = "Files/eog13_14a15.html"
             break;
         case 'eog16_17a18':
-            y.src = ""
+            y.src = "Files/eog16_17a18.html"
             break;
         case 'taite':
-            y.src = ""
+            y.src = "Files/taite.html"
             break;
         case 'coc':
-            y.src = ""
+            y.src = "Files/coc.html"
             break;
         case 'app':
-            y.src = ""
+            y.src = "Files/app.html"
             break;
         case 'ponr':
-            y.src = ""
+            y.src = "Files/ponr.html"
             break;
         case 'sicu':
-            y.src = ""
+            y.src = "Files/sicu.html"
             break;
         case 'ciel':
-            y.src = ""
+            y.src = "Files/ciel.html"
             break;
         case 'b':
-            y.src = ""
+            y.src = "Files/b.html"
             break;
         case 'itpc':
-            y.src = ""
+            y.src = "Files/itpc.html"
             break;
         case 'gcan':
-            y.src = ""
+            y.src = "Files/gcan.html"
             break;
     }
-    console.log(n)
 }
